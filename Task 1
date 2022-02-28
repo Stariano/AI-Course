@@ -1,0 +1,22 @@
+--28/2/2022--
+
+                                                                        (Open Source vs Closed Source)
+                                                                         
+   --What are open source languages and their examples ?--
+ -> Open source languages are languages that any one can access the source code and modifie it whoever they want and whatever they feel comfortable with.
+ -> Why Open source ? "The ability to modify the language" 
+ ->Examples:
+ -Python
+ -C++ (The C++ language is a standard https://isocpp.org. Unlike say Python, which has a main implementation, C++ has had many impementations over the years. Some have been open such as Clang and GCC.
+ -C#
+ 
+    --What are CLOSED source languages and their examples ?--
+ -> Closed source languages are languages That means proprietary languages. Most of them are invisible. They may be used internally by a company to create its own services.
+ ->Examples:
+ -SQL (It's compiler is hosted on Oracle
+ -ETC.
+ 
+ 
+ 
+ 
+ 
