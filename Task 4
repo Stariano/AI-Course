@@ -1,0 +1,36 @@
+--28/2/2022--
+
+                                                                        (Clean Code)
+                                                                         
+   --What is a Clean code ?--
+   
+ -> Clean code means a code that any developer can understand and work without spending too much time on learning the code also clean code needs to accept any new feature without-
+ editing on the core of the system. Easy to write, read, and maintain and to change.
+ 
+ -> Benefits : Clear, Maintenance, Cost Savings, Simplicity.
+ 
+ ->Examples:
+ 
+❌                                 
+export const foo;                 
+export const bar;               
+export const kip;               
+                                
+✔️   (Lines Saving)                          
+export const foo, bar, kip;       
+
+✔️  (Code Comments)
+**
+* This method is intended to add a new address for the customer.
+* However do note that it only allows a single address per zip
+* code. Hence, this will override any previous address with the
+* same postal code.
+*
+* @param address an address to be added for an existing customer
+*/
+/*
+* This method makes use of the custom implementation of equals 
+* method to avoid duplication of an address with same zip code.
+*/
+public addCustomerAddress(Address address) {
+}
