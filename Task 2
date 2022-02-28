@@ -1,0 +1,20 @@
+--28/2/2022--
+
+                                                                        (Compiled vs Interpreter)
+                                                                         
+   --What are compiled languages and their examples ?--
+ -> Compiled language is a language that needs to be compiled first 'build' then 'run'.
+ -> Why Compiled language ? "More efficient in resources , more control over hardware aspects, like memory management and CPU usage" 
+ ->Examples:
+ -GO
+ -Rust
+ -C++ (The C++ language is a standard https://isocpp.org. Unlike say Python, which has a main implementation, C++ has had many impementations over the years. Some have been open such as Clang and GCC.
+ -C#
+ 
+   --What are Interpreter languages and their examples ?--
+ -> Interpreter language is languages that run line by line , usually it's more slower and takes alot of resources compared to compiled.
+ ->Examples:
+ -Python
+ -PHP
+ -Ruby
+ 
