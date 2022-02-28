@@ -1,0 +1,38 @@
+--28/2/2022--
+
+                                                                        (Storing number 5 in less than 3 bits)                                                                      
+ Code :
+  
+ #include <iostream>
+ using namespace std;
+ 
+    int bits_needed(uint32_t value)
+    {
+        int bits = 0;
+        if (value >= 0x10000)
+        {
+            bits += 16;
+            value >>= 16;
+        }
+        if (value >= 0x100)
+        {
+            bits += 8;
+            value >>= 8;
+        }
+        if (value >= 0x10)
+        {
+            bits += 4;
+            value >>= 4;
+        }
+        if (value >= 0x4)
+        {
+            bits += 2;
+            value >>= 2;
+        }
+        return bits + value;
+    }
+ 
+int main() {
+	cout << bits_needed(5) << endl;
+	return 0;
+}
