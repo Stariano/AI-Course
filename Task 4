@@ -4,10 +4,10 @@
                                                                          
    --What is a Clean code ?--
    
- -> Clean code means a code that any developer can understand and work without spending too much time on learning the code also clean code needs to accept any new feature without-
+ -> Clean code means a code that any developer can understand and work without spending too much time on learning the code also clean code can accept any new feature without-
  editing on the core of the system. Easy to write, read, and maintain and to change.
  
- -> Benefits : Clear, Maintenance, Cost Savings, Simplicity.
+ -> Benefits : Clear, Maintenance, Cost Savings, Simplicity, Easy to update.
  
  ->Examples:
  
