@@ -9,22 +9,22 @@
     int bits_needed(uint32_t value)
     {
         int bits = 0;
-        if (value >= 0x10000)
+        if (value >= 0x10000) //Sates that if the value is bigger than or equal to 4099 then give 16 bits as an output.
         {
             bits += 16;
             value >>= 16;
         }
-        if (value >= 0x100)
+        if (value >= 0x100) //Sates that if the value is bigger than or equal to 255 then give 8 bits as an output.
         {
             bits += 8;
             value >>= 8;
         }
-        if (value >= 0x10)
+        if (value >= 0x10) //Sates that if the value is bigger than or equal to 15 then give 4 bits as an output.
         {
             bits += 4;
             value >>= 4;
         }
-        if (value >= 0x4)
+        if (value >= 0x4) //Sates that if the value is bigger than or equal to 4 then give 2 bits as an output.
         {
             bits += 2;
             value >>= 2;
