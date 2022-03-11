@@ -1,0 +1,8 @@
+--11/2/2022--
+
+                                                                        (Delete the same value inside a list)                                                                      
+ Code :
+  
+DUBLIST = ["Stavros", "Ahmed", "Stavros", "Omar", "Mahmoud", "Stavros" , "Mahmoud" , "Ali"] // Adding values inside a list.
+NODUBLIST = list(dict.fromkeys(DUBLIST)) // Making a new list with the name "NODUBLIST" then changing the values of the original list into a DECT. A DECT can't accept same values as keys so i've changed the values into DECT keys tand then reverse it to a list.
+print(NODUBLIST) // PRINT the new list
