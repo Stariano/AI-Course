@@ -1,0 +1,64 @@
+--11/3/2022--
+
+                                                                        (Power BI vs Tableau)
+                                                                         
+   --POWER BI--
+ -> PROS :
+ -> Lower price point than Tableau.
+ -> Power Bl doesn’t work better with a massive amount of data
+ -> Power BI can handle a limited volume of data.
+ -> Power Bl provides limited customer support to its users with a free Power Bl account. However, the paid version users will get faster support compared with the free version.
+ -> Customizable dashboards
+ -> Datasets
+ -> Reports
+ -> Navigation pane
+ -> Q&A question box
+ -> Help & feedback buttons
+ -> Ad Hoc reporting and analysis
+ -> Online Analytical Processing (OLAP)
+ -> Trend indicators
+ -> Interactive reports authoring
+ -> Complete reporting & data visualization tools
+ -> Real-time dashboards that help business owners solve problems as they occur
+ -> Offers Power BI embedded, azure service that allows applications to interact with Power BI
+ -> Q&A feature of Power BI allows users to ask questions using natural language to get answers in a specific graphical form.
+ -> Content Packs: for sharing dashboards with team
+ -> Power BI is better suited to a general audience that needs business intelligence to enhance their analytics.
+ 
+  -> CONS :
+  -> Dashboards and reports only shared with users having the same email domains.
+  -> Power Bl will never mix imported data, which is accessed from real-time connections.
+  -> Power BI can’t accept file size larger than 1 GB.
+  -> Dashboard never accept or pass user, account, or other entity parameters.
+ 
+   --Tableau--
+ -> PROS : Data blending
+ -> Tableau works best when there is a vast data in the cloud.	
+ -> Tableau BI can handle a huge volume of data with better performance.	
+ -> Tableau has excellent customer support. It has a large community forum for discussions.
+ -> No need of technical knowledge
+ -> Real-time analysis
+ -> Data collaboration and data notifications
+ -> DAX analysis function
+ -> Patented technology from Stanford university
+ -> Toggle view and drag-and-drop
+ -> List of native data connectors
+ -> Highlight and filter data
+ -> Share dashboards
+ -> Embed dashboards within
+ -> Mobile-ready dashboards
+ -> Tableau reader for data viewing
+ -> Dashboard commenting
+ -> Create “no-code” data queries
+ -> Translate queries to visualizations
+ -> Import all ranges and sizes of data
+ -> Tableau is built for data analysts.
+ 
+ -> CONS :
+  -> Relatively high cost
+ -> No change management or versioning
+ -> It is expensive, BI, when compared to other tools.
+ -> Importing custom visualization is a bit difficult.
+ -> Not offers easy methods for embedding reports to other applications.
+ -> Tableau is suitable only for a large organization which can pay for licensing cost.
+ -> The tableau does not offer support for artificial intelligence and machine learning.
