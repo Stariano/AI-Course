@@ -1,0 +1,9 @@
+--11/2/2022--
+
+                                                                        (For loop that goes infinite)                                                                      
+ Code :
+  
+l = [1]
+for x in l:
+    l.append(x + 1)
+    print(x)
