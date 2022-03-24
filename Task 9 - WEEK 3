@@ -1,0 +1,12 @@
+--24/3/2022--
+
+                                                                        (Adding Multiset)
+                                                                      
+--Multiset--
+**This is not possible in python since a set in python is by definition meant to be unique.**
+You can however install external packages to implement a multiset: // pip install multiset
+
+Code :
+from multiset import *
+vowels_set = Multiset('auioe')
+                                                                         
