@@ -1,0 +1,30 @@
+--24/3/2022--
+
+                                                                        (Libraries for Medical data)
+                                                                      
+--Libraries for Medical data--
+
+First of all , the importance of pyhton in the medical field has to do with AI as it's the best practice to connect with each other.
+
+**Applications of Python in Healthcare**
+1-Medical Image Diagnostics
+2-Hospital Operations Management
+3-Genomic Studies
+4-Medicine Discoveries
+5-Predictive Prognosis
+                                    
+* As an example we will talk about Medical Image Diagnostics.
+When Python is utilized as a programming tool for handling data, sets of instructions can be sent to an (artificial intelligence) AI model which uses machine learning toautomatically scan these images. 
+Such images are processed and reports of possible diagnoses are produced for the doctors. These computer-aided diagnoses are all powered by AI through the use of Python.
+
+***In a study done on breast cancer diagnosis by Harvard Medical School, the AI model was able to correctly predict with 92% accuracy. 
+The computer was trained to distinguish tumors from normal areas. With such high accuracy, doctors are able to have a reference to guide them in making their diagnosis.***
+
+Lib Info & Name :
+'PyHealth' is a comprehensive Python package for healthcare AI, designed for both ML researchers and healthcare and medical practitioners.
+PyHealth accepts diverse healthcare data such as longitudinal electronic health records (EHRs), continuous signials (ECG, EEG), and clinical notes (to be added), and supports various predictive modeling methods using deep learning and other advanced machine learning algorithms published in the literature.
+
+
+--Libraries for Cryptomarket--
+
+Freqtrade - A lib which can help you in making a custom bot using your strategies to trade in different exchanges using crypto as a currency.
