@@ -1,0 +1,10 @@
+--24/3/2022--
+
+                                                                        (Using Lib from Github without downloading them)
+                                                                      
+--Code--
+
+pip install -r requirements.txt
+
+//Or if the system administrator blocked installing or downloading privileges you can use sys.path library.
+
