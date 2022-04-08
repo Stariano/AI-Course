@@ -1,0 +1,19 @@
+--24/3/2022--
+
+                                                                        (ML OPS FOR PYTHON)
+                                                                      
+--Kubeflow--
+
+*Kubeflow is an open-sourced end-to-end MLOps tool that makes orchestration and deployment of Machine Learning workflows based on Kubernetes easier.
+
+--MLFlow--
+
+*MLFlow is an open-sourced MLOps tool that caters to the entire machine learning pipeline by including automation and modularity in experimentation, reproducibility, deployment, and a central model registry. 
+
+--Flytec--
+
+*Flyte is yet another open-sourced workflow automation tool that helps at delivering complex and critical Machine Learning and Data related scaling. Actively used by industry giants like Lyft and Spotify, the package comes under the Apache License to further aid its resilience towards better functionality.
+
+--Grafana--
+
+*Grafana is an Open-Sourced multi-platform analytics and visualization web application equipped with modern visualization techniques for efficient model monitoring.
