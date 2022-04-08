@@ -1,0 +1,23 @@
+--24/3/2022--
+
+                                                                        (Data Ops Tools)
+                                                                      
+--Datafold--
+
+*Datafold is a platform for data observability. 
+*It is used to prevent data outages and other potential data quality issues before data enters production.
+*It allows users to trace data flows across datasets, columns, and BI dashboards using column-level lineage.  
+*Viewing data drift makes it easier to determine which fields are affected after making any improvements/additions to data sources. If there is a data quality issue, it determines the root cause of the problem.
+
+--Composable DataOps Platform--
+
+*Composable is an enterprise-grade DataOps platform that provides data orchestration, automation, and analytics services.
+*It is used to process large amounts of data, regardless of the source, structure, or format of data. 
+*It automates data integration and data preparation processes.
+
+--K2View Fabric--
+
+*It generates rule-based services in order to apply data governance policies to new data pipelines.
+*It ingests customer data from all systems and then transforms and orchestrates ingested data. 
+*It organizes customer information in a centralized way, and stores data in a single repository to make data available to any consuming application.
+
