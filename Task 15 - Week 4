@@ -1,0 +1,7 @@
+--9/4/2022--
+
+                                                                        (Protected Variables)
+                                                                      
+--Protected Variables Python--
+
+A protected variable is variable that's protected using _x , thus this variable can be only accessible to a class derived from the main class. (Inhertiance)
