@@ -1,0 +1,22 @@
+
+--9/4/2022--
+
+                                                                        (OOP Function OVERLOADING)
+                                                                      
+----
+
+OVERLOADING--> Is a feature in OOP that lets you add the the same name of functions inside the same class.
+
+*Usually the functions have the same name but different methods in them or a different way of writing in them.
+
+Like class car --> Methods ( METER(SPEED METER , METER(RPM METER) ) 
+
+**See a function with the same NAME but different items or properties in them.**
+
+Rules:
+1-Functions have a diferent sequence of parameters.
+2-Functions have different parameter type.
+3-Functions have a different number of parameters.
+
+
+Note : it's supported in C++ only.
