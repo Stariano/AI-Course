@@ -1,0 +1,58 @@
+--9/4/2022--
+
+                                                                        (OBB Real Life Example)
+                                                                      
+----
+
+-A real life example can be issued as a Car.
+
+*When we think of a car as an object , it had at first like 2 - 3 functions (Move, Stop, ETC...) , but right now as we develope more features it has more than 50 functions
+so how are they going to keep up with it?
+
+___________
+
+-First what's an OBB?
+
+*OBB is like divding our problems into small work to get around it. We divide things into 2 (Objects , Functions), We work around using these two to eliminate any possible
+problem that we might encounter. We build functions around a static Object. We use 'class' as a plan to describe the object (like we can think of attr. inside a class 
+will be 'AC, Screen, SeatBelt, Steering Wheel, Headlamp, ETC..)
+
+
+___________
+
+-Four features of OBB?
+
+*1-Abstraction
+2-Encapsulation
+3-Inheritance
+4-Polymorphism
+
+**SOLID Principle**
+
+SRP (The Single Responsibility Principle) - A class should have one, and only one responsibility
+OCP (The Open Closed Principle) - You should be able to extend a classes behavior, without modifying it. (Inheritance)
+LSP (The Liskov Substitution Principle) - Derived classes must be substitutable for their base classes. (Polymorphism)
+ISP (The Interface Segregation Principle) -Make fine chopped interface instead of huge interface as client cannot be forced to implement an interface which they don't use.
+DIP (The Dependency Inversion Principle) - Depend on abstractions, not on concretions. (Abstraction)
+
+___________
+
+-ABSTRACTION : Let the users use the function without letting them see the internal work like brakes.Users will use brakes (brakes is a method that we input in the class 
+to let the user use it to stop the car) but the user won't see how is the brakes working.
+
+-ENCAPSULATION : First of all Abstraction&Encapsulation works together as Abstraction is adding the function & Encapsulation is the amount of details the user should 
+see and what's is so private that we need to use Encapsulation to hide it from the user. BMW car chip system is like using Encapsulation to hide from the user some 
+data to access and keep it private to only the company (The source code holder), BTW this is why people might go to tunning thir cars to play in the chip system 
+and break it to edit on some methods like breaking their speed limit that BMW had put.
+
+-INHERITANCE : Is adding new features + old features of all the cars inside a new object. Example : BMW X6 inherit the methods of speed, brake, steering wheel but at 
+the same time has a new function that wasn't in the old model BMW X4 like 360 Sensors, New modified brake system etc.
+
+4 TYPES of inheritance:
+Single level inheritance - CAR ---> BMW CAR
+Multi-level inheritance - CAR ---> BMW CAR ----> X6 TYPE
+Hierarchical inheritance - CAR ---> BMW CAR & MERCEDES CAR
+Hybrid inheritance - CAR ---> BMW CAR ----> X6 TYPE & CAR ---> MERCEDES CAR ----> C200 TYPE
+
+-POLYMORPHISM : There are 2 types of Polymorphism. OVERLOADING--> Adding function with the same name from an inherited class in the new class. 
+OVERWRITING--> changing a function from an inherited class to the the new class (like adding a new method to the function in the new class without editing the original one)
