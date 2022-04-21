@@ -1,0 +1,19 @@
+--16/4/2022--
+
+                                                                        (Regular Exp library for Arabic)
+                                                                      
+----
+
+--> So today's task was to find a regular library for Arabic language instead on English.
+
+---> Code Example:
+
+import re
+my_text= '١٩/١١/٢٠٢٠ أسوشيتد برس  كروم ٨٧، هو آخر تحديث للمتصفح هذا العام سيعمل على تحديث إدارة المتصفح للموارد'
+
+my_pattern= re.findall(r'\d+',my_text)
+my_pattern
+
+-----
+
+----> As you can RegEx can accept Arabic lang too.
