@@ -1,6 +1,6 @@
 --9/4/2022--
 
-                                                                        (OBB Real Life Example)
+                                                                        (OOP Real Life Example)
                                                                       
 ----
 
@@ -11,16 +11,16 @@ so how are they going to keep up with it?
 
 ___________
 
--First what's an OBB?
+-First what's an OOP?
 
-*OBB is like divding our problems into small work to get around it. We divide things into 2 (Objects , Functions), We work around using these two to eliminate any possible
+*OOP is like divding our problems into small work to get around it. We divide things into 2 (Objects , Functions), We work around using these two to eliminate any possible
 problem that we might encounter. We build functions around a static Object. We use 'class' as a plan to describe the object (like we can think of attr. inside a class 
 will be 'AC, Screen, SeatBelt, Steering Wheel, Headlamp, ETC..)
 
 
 ___________
 
--Four features of OBB?
+-Four features of OOP?
 
 *1-Abstraction
 2-Encapsulation
