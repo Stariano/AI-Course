@@ -1,0 +1,13 @@
+--16/4/2022--
+
+                                                                        (Why to use inheritance in pyhton)
+                                                                      
+----
+
+--> 1) It's for code reuse , as it makes it easier to edit in an inherited class than the abstracted class that will make errors as we go on and develop alot of attr.,
+functions, etc... 
+
+--> 2) You can achieve the same with a delegation chain : No it will be too mind exhausting as inheritance is easier in that type of stuff...
+
+
+---> https://stackoverflow.com/questions/1020453/what-s-the-point-of-inheritance-in-python // Discussion about why should we use inheritance in python
