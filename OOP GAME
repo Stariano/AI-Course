@@ -1,0 +1,45 @@
+class Hanginggame:
+    lives = 3
+
+    
+    def __init__(self):
+        self.words()
+        print("Hi, You entered the hanging man game")
+        self.checker()
+        
+    def words(self):
+        self.key1 = "Stavros"
+        self.key2 = "Stevo"
+        self.key3 = "Steve"
+        
+    def checker(self):
+        print("Please enter the first key , note that if you entered the first key right you'll continue automatic.")
+        x = input()
+        if x ==  self.key1:
+            print("You got the first key")
+        else:
+            print("You didn't get it right , 1 life is deducted")
+            self.lives -= 1
+            print("You now have ", self.lives , "lives")
+            
+            
+        xf = input()    
+        if xf == self.key2:
+            print("This is the second level , please enter the second key")
+            print("You got the second key")
+        else:
+            print("You didn't get it right , 1 life is deducted , you'll be entered to the third level")
+            self.lives -= 1
+            print("You now have ", self.lives , "lives")
+            
+            
+        xs = input()    
+        if xs == self.key3:
+            print("This is the third level , please enter the third key")
+            print("You got the third key")
+            print("You win congrats")
+            print(self.lives , "number of lifes that u have")
+        elif self.lives <= 2:
+            self.lives -= 1
+            print("You didn't get it right, 3 lives were lost, the game will be finsihed")
+            print("You now have ", self.lives , "lives")    
