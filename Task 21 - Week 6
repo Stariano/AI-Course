@@ -1,0 +1,51 @@
+--19/5/2022--
+
+                                                                        (7Vs of Big Data)
+                                                                      
+----
+
+----> What are the 7Vs of Big data?
+
+--> 7Vs of big data were constructed earlier as a way to differentiate normal data from big data as big data has a special way of treatment.
+
+---------------
+
+List :
+
+1- Volume : Volume(Size) of the data speaks about itself. You can gain volume from texts, audio, medical data, social media, scientist, reports , natural disasters etc..
+Inputs of the data can be photos, satellites images, audios, videos, files, etc.. As this data has alot of volume and types. Ofcourse this data will be an unorganized
+/ unstructured data , like we can't organize it in a query or use SQL to show the values etc... We must notice that we are dealing with petabytes of data.
+
+--
+
+2- Velocity : Velocity goes on hand with the volume of the data. What's velocity ? Velocity is the speed of the data that's make it impossible to work with. Like can 
+you imagine the amount of data , we are generating at this moment ? it's humongous. High velocity is directly proportional to volume as we can infere. High velocity 
+data needs an special "care" from buisness. Let's imagine every second a new huge chunck of data is comming in , as you imagined this data needs different type of
+ways to work (technology and database engines) with either to store it and save it for later or to analyze it later on. this takes us to the term "speed of the loop"
+speed of the loop is the way the buisness ensure that receiving data till storing it in a big data storage is the best way available for their scenario.
+
+--
+
+3- Validity : 
+
+--
+
+4- Veracity : Veracity to me is the most important aspect in the Vs. What is veracity? It's the truthfulness of the data.EX: we might be dealing with fake data. How ?
+Lets imagine we are sitting and watching the tv news. A reporter comes and talk about a murder crime and tell us out of no where that Human 1 is the murderer will the
+police act on that tv reporter data? no ofcourse because in the end it's fake data, we can't talk measuers or deal with it. We are working with unstructured data here 
+so it needs to reviewed rightfully if it will be a real help to us. Remember that it needs to be cleansed and has no dublicates because that can affect the veracity.
+Anyways the buisness needs to come up with a proper answer for validitng their own data.
+
+--
+
+5- Variety : Sure you know that bid data comes in alot of shapes and sizes. Audio, Photos, Files, Videos, Texts, you name it. For example WWW industry, Human 1 is using
+android and Chrome , While Human 2 is using iphone and Safari. Each one of them is sending data in different way than the other and the cloud or the server is receving
+these different type of data. By The Way, High Variety comes with High amount of errors.
+
+--
+
+6- Voltalilty :
+
+--
+
+7- Value :
