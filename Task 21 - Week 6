@@ -26,7 +26,9 @@ speed of the loop is the way the buisness ensure that receiving data till storin
 
 --
 
-3- Validity : 
+3- Validity : Validity may sound like Veracity but no they aren't the same.By Validity we mean how the accuracy and rightfull is the data for the problem
+or the usage of the data in scenario A for example. Let us say the data doesn't have Veracity issue but has a validity issue so it won't give us the right 
+insight.  it is very important to take care of some of the relationship and elements of the data to reduce the chance of using low validity data.
 
 --
 
@@ -44,8 +46,13 @@ these different type of data. By The Way, High Variety comes with High amount of
 
 --
 
-6- Voltalilty :
+6- Voltalilty : Lets imagaine your company uses structured data and the retention period came so they wants o delete all of the records about their private data,
+that's easy! you will use SQL or any other mean to delete all of the records, but in bug data as its unstructured and in petabytes you can't do this easily.
+This problem is so magnified in the field of the big data as the retention period may end so that leads you to paying expensive fees for the sake of
+storing and securing it. Volatility becomes high due to Volume, Variety and Velocity of data.
 
 --
 
-7- Value :
+7- Value : The most special V, The outcome any organizations want the VALUE. Value of the data must exceed it's storage , managing costs. Any organization thrives to
+get the best result (Value) from their data. While economy is getting worse and worse , organization must think about the value of their data compared to the prices
+of storing, managing and securing the data.
