@@ -1,0 +1,50 @@
+--> Youtube Subscribers Scrapping technique using selenium with sleep option to not be decteted &auto-login option to get the name, link and description 
+of the people im subscribed to.
+
+-----------
+
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.common.keys import Keys
+import undetected_chromedriver.v2 as uc
+from bs4 import BeautifulSoup
+import chromedriver_binary
+import csv
+import time
+    
+driver = uc.Chrome()
+driver.delete_all_cookies()
+    
+def youtubee():
+        link = "https://www.youtube.com/signin"
+        linkk = "https://www.youtube.com/feed/channels?app=desktop"
+        
+        Email = "fff@gmail.com"
+        passs = "1111"
+        
+        driver.get(link)
+        time.sleep(5)
+        driver.find_element_by_xpath("//input[@type='email']").send_keys(Email)
+        driver.find_element_by_xpath("//button[@class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc qfvgSe qIypjc TrZEUc lw1w4b']").click()
+        
+        time.sleep(8)
+        driver.find_element_by_xpath("//input[@type='password']").send_keys(passs)
+        driver.find_element_by_xpath("//button[@class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc qfvgSe qIypjc TrZEUc lw1w4b']").click()
+        
+        time.sleep(5)
+        driver.get(linkk)
+        html = driver.page_source
+        soup = BeautifulSoup(html, 'html.parser')
+        time.sleep(5)
+        youtubeeedata()
+        
+def youtubeeedata():
+        time.sleep(4)
+        channels = soup.find_all("div",{"id":"content-section"})
+        youtube_list_cleared = []
+        
+                youtube_lists = {}
+                youtube_lists['name'] = channel.find("yt-formatted-string").text
+                youtube_lists['link'] = "https://www.youtube.com"+channel.find("a")["href"]
+                youtube_lists['description'] = channel.find("yt-formatted-string",{"id":"description"}).text.splitlines()   
+                youtube_list_cleared.append(youtube_lists)
