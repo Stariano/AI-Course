@@ -1,5 +1,7 @@
---> Youtube Subscribers Scrapping technique using selenium with sleep option to not be decteted &auto-login option to get the name, link and description 
-of the people im subscribed to.
+--> This project is Youtube Subscribers Scrapping using selenium with sleep option to not be decteted as a bot & auto-login option to save time
+and the main purpose to get the name, link and description of the channels im subscribed to.
+--> Updates : Added Pnadas Lib to make a datafram after collecting the data then saving it in a csv for later use.
+---> To do : Add random time sleeper from 1 to 7 etc...
 
 -----------
 
@@ -20,8 +22,8 @@ def youtubee():
         link = "https://www.youtube.com/signin"
         linkk = "https://www.youtube.com/feed/channels?app=desktop"
         
-        Email = "email@gmail.com"
-        passs = "password"
+        Email = "evilco30@gmail.com"
+        passs = "01128488008sta"
         
         driver.get(link)
         time.sleep(5)
@@ -50,7 +52,7 @@ def youtubeeedata():
             youtube_lists['description'] = channel.find("yt-formatted-string",{"id":"description"}).text.splitlines()   
             youtube_list_cleared.append(youtube_lists)
             
-            
 def framemaker():         
     dataframe = PD.DataFrame(youtube_list_cleared)
+    dataframe.to_csv(r'F:\my_data.csv', index=True)
     return dataframe
