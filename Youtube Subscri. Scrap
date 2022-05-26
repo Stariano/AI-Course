@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 import chromedriver_binary
 import csv
 import time
+import pandas as PD
     
 driver = uc.Chrome()
 driver.delete_all_cookies()
@@ -19,8 +20,8 @@ def youtubee():
         link = "https://www.youtube.com/signin"
         linkk = "https://www.youtube.com/feed/channels?app=desktop"
         
-        Email = "fff@gmail.com"
-        passs = "1111"
+        Email = "email@gmail.com"
+        passs = "password"
         
         driver.get(link)
         time.sleep(5)
@@ -41,10 +42,15 @@ def youtubee():
 def youtubeeedata():
         time.sleep(4)
         channels = soup.find_all("div",{"id":"content-section"})
-        youtube_list_cleared = []
-        
-                youtube_lists = {}
-                youtube_lists['name'] = channel.find("yt-formatted-string").text
-                youtube_lists['link'] = "https://www.youtube.com"+channel.find("a")["href"]
-                youtube_lists['description'] = channel.find("yt-formatted-string",{"id":"description"}).text.splitlines()   
-                youtube_list_cleared.append(youtube_lists)
+        youtube_list_cleared = []      
+        for channel in channels:
+            youtube_lists = {}
+            youtube_lists['name'] = channel.find("yt-formatted-string").text
+            youtube_lists['link'] = "https://www.youtube.com"+channel.find("a")["href"]
+            youtube_lists['description'] = channel.find("yt-formatted-string",{"id":"description"}).text.splitlines()   
+            youtube_list_cleared.append(youtube_lists)
+            
+            
+def framemaker():         
+    dataframe = PD.DataFrame(youtube_list_cleared)
+    return dataframe
