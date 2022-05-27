@@ -1,0 +1,43 @@
+---> Requirments : Install Pytube using pip 
+----> How it works ? -- You give the 
+
+
+
+# csv file name
+filename = r"F:\s.csv"
+ 
+# initializing the titles and rows list
+fields = []
+rows = []
+ 
+# reading csv file
+with open(filename, 'r') as csvfile:
+    # creating a csv reader object
+    csvreader = csv.reader(csvfile)
+     
+    # extracting field names through first row
+    fields = next(csvreader)
+ 
+    # extracting each data row one by one
+    for row in csvreader:
+        rows.append(row)
+
+for row in rows:
+    list2 = list(map(str, row))
+    print(list2)
+    
+from pytube import YouTube
+import csv
+import os
+
+def downloadYouTube():
+
+    downloadurll = "https://www.youtube.com/watch?v=zNyYDHCg06c"
+    path = r'F:\videos\FindingNemo1'
+    yt = YouTube(str(downluadurl))
+    yt = yt.streams.filter(progressive=True, file_extension='mp4').order_by('resolution').desc().first()
+    if not os.path.exists(path):
+        os.makedirs(path)
+    yt.download(path)
+
+downloadYouTube()
