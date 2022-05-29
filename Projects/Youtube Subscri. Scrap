@@ -5,6 +5,8 @@ and the main purpose to get the name, link and description of the channels im su
 
 -----------
 
+#Don't forget to install this libs.
+
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.keys import Keys
@@ -22,8 +24,8 @@ def youtubee():
         link = "https://www.youtube.com/signin"
         linkk = "https://www.youtube.com/feed/channels?app=desktop"
         
-        Email = "evilco30@gmail.com"
-        passs = "01128488008sta"
+        Email = "test@gmail.com"
+        passs = "test"
         
         driver.get(link)
         time.sleep(5)
@@ -36,14 +38,13 @@ def youtubee():
         
         time.sleep(5)
         driver.get(linkk)
-        html = driver.page_source
-        soup = BeautifulSoup(html, 'html.parser')
         time.sleep(5)
-        youtubeeedata()
         
 def youtubeeedata():
-        time.sleep(4)
-        channels = soup.find_all("div",{"id":"content-section"})
+        time.sleep(7)
+        html = driver.page_source
+        soupp = BeautifulSoup(html, "html.parser")
+        channels = soupp.find_all("div",{"id":"content-section"})
         youtube_list_cleared = []      
         for channel in channels:
             youtube_lists = {}
@@ -52,7 +53,6 @@ def youtubeeedata():
             youtube_lists['description'] = channel.find("yt-formatted-string",{"id":"description"}).text.splitlines()   
             youtube_list_cleared.append(youtube_lists)
             
-def framemaker():         
-    dataframe = PD.DataFrame(youtube_list_cleared)
-    dataframe.to_csv(r'F:\my_data.csv', index=True)
-    return dataframe
+        dataframe = PD.DataFrame(youtube_list_cleared)
+        dataframe.to_csv(r'E:\my_data.csv', index=True) #Remember to change this to your directory.
+        return dataframe
